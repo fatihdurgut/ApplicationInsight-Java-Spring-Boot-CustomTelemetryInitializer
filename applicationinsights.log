@@ -1,0 +1,68 @@
+2020-12-03 16:07:58.229+03 INFO  c.m.applicationinsights.agent - ApplicationInsights Java Agent started successfully
+2020-12-03 16:14:54.670+03 INFO  c.m.applicationinsights.agent - ApplicationInsights Java Agent started successfully
+2020-12-03 16:17:08.438+03 INFO  c.m.applicationinsights.agent - ApplicationInsights Java Agent started successfully
+2020-12-03 16:28:49.064+03 INFO  c.m.applicationinsights.agent - ApplicationInsights Java Agent started successfully
+2020-12-03 16:31:50.004+03 INFO  c.m.applicationinsights.agent - ApplicationInsights Java Agent started successfully
+2020-12-03 16:32:32.424+03 INFO  c.m.applicationinsights.agent - ApplicationInsights Java Agent started successfully
+2020-12-03 16:33:29.767+03 INFO  c.m.applicationinsights.agent - ApplicationInsights Java Agent started successfully
+2020-12-03 16:35:24.200+03 INFO  c.m.applicationinsights.agent - ApplicationInsights Java Agent started successfully
+2020-12-03 16:46:48.038+03 INFO  c.m.applicationinsights.agent - ApplicationInsights Java Agent started successfully
+2020-12-03 16:57:42.585+03 INFO  c.m.applicationinsights.agent - ApplicationInsights Java Agent started successfully
+2020-12-03 17:00:46.095+03 ERROR c.m.a.i.c.c.TransmissionNetworkOutput - Failed to send
+java.net.SocketTimeoutException: Read timed out
+	at java.base/sun.nio.ch.NioSocketImpl.timedRead(NioSocketImpl.java:283)
+	at java.base/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:309)
+	at java.base/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:350)
+	at java.base/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:803)
+	at java.base/java.net.Socket$SocketInputStream.read(Socket.java:981)
+	at java.base/sun.security.ssl.SSLSocketInputRecord.read(SSLSocketInputRecord.java:478)
+	at java.base/sun.security.ssl.SSLSocketInputRecord.readHeader(SSLSocketInputRecord.java:472)
+	at java.base/sun.security.ssl.SSLSocketInputRecord.bytesInCompletePacket(SSLSocketInputRecord.java:70)
+	at java.base/sun.security.ssl.SSLSocketImpl.readApplicationRecord(SSLSocketImpl.java:1434)
+	at java.base/sun.security.ssl.SSLSocketImpl$AppInputStream.read(SSLSocketImpl.java:1038)
+	at org.apache.http.impl.io.SessionInputBufferImpl.streamRead(SessionInputBufferImpl.java:137)
+	at org.apache.http.impl.io.SessionInputBufferImpl.fillBuffer(SessionInputBufferImpl.java:153)
+	at org.apache.http.impl.io.SessionInputBufferImpl.readLine(SessionInputBufferImpl.java:282)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:138)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:56)
+	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:259)
+	at org.apache.http.impl.DefaultBHttpClientConnection.receiveResponseHeader(DefaultBHttpClientConnection.java:163)
+	at org.apache.http.impl.conn.CPoolProxy.receiveResponseHeader(CPoolProxy.java:165)
+	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:273)
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:125)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:272)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:185)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:111)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:108)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at com.microsoft.applicationinsights.internal.channel.common.ApacheSender43.sendPostRequest(ApacheSender43.java:75)
+	at com.microsoft.applicationinsights.internal.channel.common.TransmissionNetworkOutput.sendSync(TransmissionNetworkOutput.java:159)
+	at com.microsoft.applicationinsights.internal.channel.common.ActiveTransmissionNetworkOutput$1.run(ActiveTransmissionNetworkOutput.java:80)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+2020-12-03 17:01:50.001+03 INFO  c.m.applicationinsights.agent - ApplicationInsights Java Agent started successfully
+2020-12-03 17:03:39.834+03 INFO  c.m.applicationinsights.agent - ApplicationInsights Java Agent started successfully
+2020-12-03 17:09:27.949+03 INFO  c.m.applicationinsights.agent - ApplicationInsights Java Agent started successfully
+2020-12-03 17:09:47.583+03 INFO  c.m.applicationinsights.agent - ApplicationInsights Java Agent started successfully
+2020-12-03 17:14:04.036+03 INFO  c.m.applicationinsights.agent - ApplicationInsights Java Agent started successfully
+2020-12-03 17:14:54.461+03 INFO  c.m.applicationinsights.agent - ApplicationInsights Java Agent started successfully
+2020-12-03 17:22:10.614+03 INFO  c.m.applicationinsights.agent - ApplicationInsights Java Agent started successfully
+2020-12-03 17:28:54.584+03 INFO  c.m.applicationinsights.agent - ApplicationInsights Java Agent started successfully
+2020-12-03 17:29:26.408+03 INFO  c.m.applicationinsights.agent - ApplicationInsights Java Agent started successfully
+2020-12-03 17:34:10.437+03 INFO  c.m.applicationinsights.agent - ApplicationInsights Java Agent started successfully
+2020-12-03 17:34:33.756+03 INFO  c.m.applicationinsights.agent - ApplicationInsights Java Agent started successfully
+2020-12-03 17:35:04.415+03 INFO  c.m.applicationinsights.agent - ApplicationInsights Java Agent started successfully
+2020-12-03 17:42:07.131+03 INFO  c.m.applicationinsights.agent - ApplicationInsights Java Agent started successfully
+2020-12-03 17:42:44.046+03 INFO  c.m.applicationinsights.agent - ApplicationInsights Java Agent started successfully
+2020-12-03 17:46:19.925+03 INFO  c.m.applicationinsights.agent - ApplicationInsights Java Agent started successfully
+2020-12-03 17:49:34.070+03 INFO  c.m.applicationinsights.agent - ApplicationInsights Java Agent started successfully
+2020-12-03 18:20:17.794+03 INFO  c.m.applicationinsights.agent - ApplicationInsights Java Agent started successfully
+2020-12-03 18:22:35.522+03 INFO  c.m.applicationinsights.agent - ApplicationInsights Java Agent started successfully
+2020-12-03 18:27:55.502+03 INFO  c.m.applicationinsights.agent - ApplicationInsights Java Agent started successfully
+2020-12-03 18:31:44.970+03 INFO  c.m.applicationinsights.agent - ApplicationInsights Java Agent started successfully
+2020-12-03 19:19:58.067+03 INFO  c.m.applicationinsights.agent - ApplicationInsights Java Agent started successfully
+2020-12-03 19:26:28.806+03 INFO  c.m.applicationinsights.agent - ApplicationInsights Java Agent started successfully
